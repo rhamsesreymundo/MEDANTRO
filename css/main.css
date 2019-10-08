@@ -644,7 +644,7 @@ ul.sub-menu {
 
 #action, 
 #page-breadcrumb {
-  background-image: url(../images/home/tour-bg.png);
+  background-image: url(../images/home/todos1.png);
   background-color: #fbfafa;
   background-repeat: repeat-x;
   height: 155px;
@@ -776,7 +776,7 @@ ul.sub-menu {
   position: absolute;
   width: 100%;
   left: 0;
-  background-position: 160px 4px;
+  background-position: 151px 4px;
 }
 
 .team-single {

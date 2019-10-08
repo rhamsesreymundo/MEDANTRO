@@ -368,7 +368,7 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 20px;
+  padding-bottom: 75px;
   background-image: url(../images/home/footer4.jpg);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -381,9 +381,9 @@ ul.sub-menu {
 }
 
 #footer .bottom-separator {
-  margin-bottom: 60px;
+  margin-bottom: 60px;                /******  60px ****/
 }
-
+/****
 #message {
   height: 110px;
   resize: none;
@@ -433,8 +433,8 @@ ul.sub-menu {
   color: #d99c4e;
   font-family: 'Noto Sans', sans-serif;
   transform:rotate(180deg);
-  -ms-transform:rotate(180deg); /* IE 9 */
-  -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
+  -ms-transform:rotate(180deg);  
+  -webkit-transform: rotate(180deg); 
   line-height: 0;
 }
 
@@ -491,7 +491,7 @@ ul.sub-menu {
   box-shadow: none;
   opacity: .8;
 }
-
+****/
 .copyright-text{
   margin-top: 70px;
 }

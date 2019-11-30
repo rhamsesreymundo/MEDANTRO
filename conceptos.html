@@ -253,41 +253,22 @@ La estrategia de esta solución se basa en la captura de imágenes fotográficas
             <p> <p style="color:#991631 ";>CONCEPTO NÚMERO 2: USO DE FOTOGRAMETRÍA PARA DISEÑO EN 3D DEL ATLETA</p></p>		
 							
            
-            <p align="justify"> Según el libro “Introduction to Photogrammetry” por T. Schenk, se dice que no hay una definición universal aceptada de fotogrametría, pero la noción más importante de esta es que es la ciencia de obtener información sobre las propiedades de superficies y objetos sin contacto físico con estos, de esta manera medir e interpretar esta información. La forma de esta información puede ser desde fotografías hasta patrones de energía electromagnética radiante de los objetos.</p>
-            <p align="justify"> La manera más sencilla de aplicar la fotogrametría sería la obtención de un diseño tridimensional basándose en la toma de fotos al objeto a diseñar en distintas posiciones. Es decir, obtendremos información tridimensional de información bidimensional. </p>
-            
-             </p>
-            <p align="center">
-             <img src="images/angulos.jpg" class="img-fluid" alt="Image"><br>
-             </a>
-          <span class="caption text-muted">Figura . Ejemplo de obtención de imagen tridimensional con recolección de fotografías en distintos ángulos.(PhotoScan. 2019, de Instructables workshop)
-
-            </span>
-            <p>
-            
-            
-            
-            <p align="justify">Entonces, basándonos en esta técnica, se podría obtener la información antropométrica del atleta. </p>
-            <p align="justify"> La obtención de las imágenes se podría conseguir con la toma de fotografías simultáneamente desde distintos puntos (Es importante evitar sombras y usar suficiente luz para que el sistema pueda reconocer entre el atleta y el fondo), softwares tales como Open SmartShooter son usados con este propósito además de poder realizar ajustes a las cámaras de manera simultánea.</p>
-          
-        </p>
-            <p align="center">
-             <img src="images/reflectores.jpg" class="img-fluid" alt="Image"><br>
-             </a>
-          <span class="caption text-muted">Figura . Ejemplo de montaje y posicionamiento de las cámaras fotográficas. (144X DSLR. 2019, de Pixel Light Effects)
-
-            </span>
-            <p>
-        <p align="justify"> Una vez se hayan obtenido las imágenes, con uso de softwares se podrán importar y alinear estas de manera que se podrá obtener una primera vista del atleta en 3D.</p>
-        <p align="justify"> Finalmente, mediante programas limpiar la “basura” existente en el modelo, que son principalmente partes del fondo (En la figura 1 se pueden observar como una nube blanca alrededor de la persona), una vez concluido este proceso, podremos obtener la imagen tridimensional la cual podremos usar para realizar las medidas necesarias en el mismo computador.</p>
-        
+            <p align="justify"> Objetivo:
+El objetivo de esta solución es generar un modelo tridimensional del menor para posteriormente calcular sus medidas antropométricas utilizando un software desarrollado en Python.
+Estrategia:
+La obtención de las imágenes se podría conseguir con la toma de fotografías simultáneamente desde distintos puntos (es importante evitar sombras y usar suficiente luz para que el sistema pueda reconocer entre el atleta y el fondo). Softwares tales como Open SmartShooter son usados con este propósito además de poder realizar ajustes a las cámaras de manera simultánea.
+Una vez se hayan obtenido las imágenes, con uso de softwares se podrán importar y alinear estas de manera que se podrá obtener una primera vista del menor en 3D.
+Finalmente, mediante programas limpiar la “basura” existente en el modelo, que son principalmente partes del fondo, podremos obtener la imagen tridimensional la cual podremos usar para realizar las medidas necesarias en el mismo computador.</p>
+           
+           
         <p> <p style="color:#991631 ";>CONCEPTO NÚMERO 3: SISTEMA BASADO EN EL USO DE MARCADORES ARUCOS</p></p>
             
             
-            <p align="justify">Los marcadores aruco son marcadores fiduciales que permiten detectar un punto en tiempo real, su principal beneficio es que es robusto, rápido y simple. Por esta razón, se utilizarán dos marcadores para detectar dos puntos en el cuerpo del menor y empleando un algoritmo se calcularán la distancia entre los puntos, el cual se mostrará en tiempo real superpuesto en el atleta.</p>
-    <p align="justify"> La metodología sera la siguiente:
-En primer lugar, el antropometrista marcará los puntos antropométricos en el menor, seguido a esto se utilizarán los marcadores aruco y se colocarán en los puntos antropométricos marcados anteriormente. Se utilizará una aplicación, el cual previamente se habrá programado, para detectar los marcadores en el cuerpo del menor y medir las distancias entre los puntos. Estas medidas, se
-guardarán en una base de datos para luego ser utilizados en cualquier momento.</p>
+            <p align="justify">Objetivo:
+El principio de esta solución es utilizar dos marcadores aruco para calcular la distancia entre ellos utilizando un algoritmo para su detección.
+Estrategia:
+Los marcadores aruco son marcadores fiduciales que permiten detectar un punto en tiempo real, su principal beneficio es que es robusto, rápido y simple. Por esta razón, se utilizarán dos marcadores para detectar dos puntos en el cuerpo del menor y empleando un algoritmo se calcularán la distancia entre los puntos, el cual se mostrará en tiempo real superpuesto en el atleta.
+Metodología:</p>
             <p align="center">
              <img src="images/cine1.jg" class="img-fluid" alt="Image"><br>
              </a>
